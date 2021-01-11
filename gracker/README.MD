@@ -1,1 +1,1 @@
-Privilege escalation challenge on linux (SSH).
+Privilege escalation challenge on linux (SSH).Login to level0: SSH: level0@gracker.orgPassword: level0(Login by typing "ssh level0@gracker.org" into a terminal)The writeups here will not give you the complete solution.
