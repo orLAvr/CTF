@@ -1,0 +1,1 @@
+Privilege escalation challenge on linux (SSH).
