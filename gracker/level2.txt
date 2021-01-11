@@ -1,0 +1,11 @@
+Welcome to xor keys.
+
+I hope you tried the same method from the lest level, and figured that this level is slightly different.
+
+Now find the encrypted password and the xor key, and do magic!
+Remember: the xor key can be one or two bytes, you must make sure you xor the values properly.
+ Take a look at line main+124 (0x00000000004008b9) and figure out what is being 'xor'ed.
+
+Also read about little and big endian https://en.wikipedia.org/wiki/Endianness.
+
+Note that you can examine multiple bytes with gdb with the command "x/16xw 0x01234567" for example which will print 16*4 bytes of data from the location 0x01234567.
