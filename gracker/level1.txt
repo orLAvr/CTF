@@ -1,0 +1,19 @@
+Now things get a little real!
+
+Start by reading the story for this level ("cat /home/level1/story").
+
+Good. Now I'll give you the first hint, use this on gdb "set disassembly-flavor intel".
+
+Now again "disassemble main" and try to understand what the code does.
+A good thing to look for is C function declerations. Common functions you will find are:
+	gets
+	puts
+	strcmp
+	printf
+
+Notice the vulnerabilities of each of these functions (google it. Some exploits will be mentioned here or later, but just google it).
+
+However, for this level we do not yet need to exploit function vulnerabilities.
+
+Remember that function arguments are passed through the stack (https://en.wikibooks.org/wiki/X86_Disassembly/Calling_Conventions),
+ and use this to find what is going on at each point in the assembly code.

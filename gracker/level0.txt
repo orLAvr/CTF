@@ -18,3 +18,5 @@ python:
 
 For this level however, we will use the tool "strings". This will print all the strings in a file (binary or not).
 So now use the magical "man" tool and solve this level.
+
+Do not forget to "cat /home/level1/.pass" once you are privilege level1.
