@@ -1,0 +1,20 @@
+Let's start our journey with gracker by learning a bit about bash (linux) commands, and the tools we will be using to solve gracker.
+
+Commands:
+"./EXECUTABLE" => Run the program "EXECUTABLE"
+"cat" => This tool will allow you to read a file into the terminal, or if used like "(cat /file/path/file_name.ext) | ./EXECUTABLE".
+"id" => Shows your privilege.
+"whoami" => Shows your username (use this to check if you escalated to the next user).
+"ls" => Lists the directories and files in the current directory.
+
+Tools:
+man:
+	The manual pages. Start off with "man man" and learn to use the tool to learn more about other tools and commands.
+gdb:
+	An awesome debugging tool. Type "gdb EXECUTABLE" to begin. This tool is extremely well documented, so just go to YouTube.com and watch some tutorials.
+python:
+	Use python to automate everything. Just type "python" in the terminal.
+
+
+For this level however, we will use the tool "strings". This will print all the strings in a file (binary or not).
+So now use the magical "man" tool and solve this level.
