@@ -1,1 +1,1 @@
-# Phantom Challenges. These are the challenges I (Michael_K_Stein) made.
+Phantom Challenges. These are the challenges I (Michael_K_Stein) made.
