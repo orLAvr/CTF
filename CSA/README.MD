@@ -1,1 +1,1 @@
-Check Point Software Technologies anual recruitment CTF.
+Check Point Software Technologies anual recruitment CTF.https://csa.checkpoint.com/challenges
