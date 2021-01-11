@@ -1,0 +1,31 @@
+This challenge began with a video (no longer avaliable :( ), which had flashing black screens.
+
+Transcribing the flashes into morse yielded the strings: "129.213.32.20", which is clearly an IP address.
+
+Going to the website hosted on this IP (on port 80), we are given an image (jpg) of children building a Sukkah.
+
+Now the real fun begins:
+
+Copy this image and let's start examining it.
+First things to check in images (steganography):
+	1) zsteg (https://github.com/zed-0xff/zsteg)
+	2) binwalk (https://github.com/ReFirmLabs/binwalk)
+	3) Hex dump / Binary view / strings search
+
+Let's assume we go down the 3rd path (notice that the 2nd path is fastest, and the 1st won't work here).
+Looking into the files data, we find the word "Rar!". Interesting, especially since this is the 'rar' compressed file format signature (https://en.wikipedia.org/wiki/List_of_file_signatures).
+Extract the section following (and including) the 'rar' signature (from 0x02F668) to the end of the file.
+
+This rar is password protected, so startup JohnTheRipper using rar2john (https://dfir.science/2014/07/how-to-cracking-zip-and-rar-protected.html).
+
+This is only a matter of time, but eventually you will be told the password is: "Password!".
+
+Now we are given an image called "Payload.png". We can again try the good-old stegano tricks, but this one is a little different;
+ We are given stripes of color, and notice that all the colors seem rather dark.
+Darker colors mean that all 3 RGB value are on the lower end, possible in the <128 range (proper ASCII).
+We can extract all the RGB values using MS-Paint or a script of sorts, but anyway we will end up with the values:
+	102 108 097 103 123 077 111 097 100 105 109 032 076 101 115 105 109 099 104 097 125" 
+	ascii for 
+	"flag{Moadim Lesimcha}"
+
+- Michael_K_Stein
