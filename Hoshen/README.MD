@@ -1,1 +1,1 @@
-çåùï's anual militry recruitment challenge.
+Ã§Ã¥Ã¹Ã¯'s anual militry recruitment challenge
