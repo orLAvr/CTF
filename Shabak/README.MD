@@ -1,1 +1,1 @@
-The ùá"ë anual recruitment CTF.
+The ×©×‘"×› anual recruitment CTF.
