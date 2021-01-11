@@ -1,1 +1,1 @@
-çåùï's anual militry recruitment challenge
+חושן's anual militry recruitment challenge.
