@@ -1,0 +1,7 @@
+The image "ThePassword.png" is the abhorrent result of 
+putting the original image through the function "Shift()", 
+which can be found in "Source Code.c".
+
+Unfortunately, I'm an a**hole , so I messed a little with the variable names.
+
+Reverse the effects of the Shift function and find the original image.

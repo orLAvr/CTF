@@ -1,0 +1,5 @@
+Although possible, the point of this level is not to tamper with the program.
+Avoid openning it in a hex viewer or decompiler. There were enough of those levels already.
+
+Think of a different solution.
+I promise you there is a very quick and simple solution which does necessitate reversing.

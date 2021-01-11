@@ -1,0 +1,4 @@
+You can, and should, do this level without external tools.
+
+Usually you would have used gdb or similar to get the addresses and see the return address on the stack,
+ but this is a learning level which prefaces the next level.

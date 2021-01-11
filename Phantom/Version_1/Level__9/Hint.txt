@@ -1,0 +1,5 @@
+Somewhere within the game, not too deep in the code, I have planted a passcode.
+This passcode is the password you will need to continue.
+
+You will find the passcode prefixed by "Code: ".
+(All cropping is intentional)
